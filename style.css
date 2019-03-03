@@ -1,0 +1,62 @@
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    margin: auto;
+    height: 100px;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    margin: auto;
+    
+}
+
+#nav-toggle {
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-size: 25px;
+    margin-top: 0;
+}
+
+#shows {
+    display: flex;
+    margin: auto;
+    background-color: gray;
+}
+
+.upcoming-shows {
+    width: 50%;
+}
+
+.future-shows {
+    width:25%;
+}
+
+.past-shows {
+    width: 25%;
+}
+
+#about {
+    display: flex;
+    background-color: tan;
+    margin: auto;
+}
+
+#about-lantern {
+    width: 33%;
+}
+
+#transcripts {
+    width: 33%;
+}
+
+#pictures {
+    width: 33%;
+}
