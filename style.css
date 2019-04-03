@@ -5,10 +5,15 @@
 
 header {
     display: flex;
-    background-color: black;
+    background-color: #2d2d2d;
     margin: auto;
     height: 100px;
     width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: solid 1px #2d2d2d;
 }
 
 h1 {
@@ -21,8 +26,9 @@ h1 {
     color: white;
     text-decoration: none;
     float: right;
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 0;
+    margin-right: 5px;
 }
 
 #shows {
@@ -41,6 +47,11 @@ h1 {
 
 .past-shows {
     width: 25%;
+}
+
+#tweets {
+    display: inline-block;
+    margin-top: 150px;
 }
 
 #about {
