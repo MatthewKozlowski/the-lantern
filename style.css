@@ -69,3 +69,73 @@ nav {
     background-color: #2d2d2d;
     color: white;
 }
+
+@media only screen and (max-width: 1280px) {
+
+    #heroContainer {
+        flex-direction: column;
+    }
+
+    .socialmedia {
+        margin-top: 0;
+    }
+
+    .video {
+        order: -1;
+    }
+
+}
+
+@media only screen and (max-width: 1000px){
+    h1 {
+        font-size:50px;
+    }
+
+    .video {
+        order: -1;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .video {
+        order: -1;
+    }
+
+    #heroContainer {
+        flex-direction: column;
+    }
+
+    .socialmediaTitles {
+        font-size: 25px;
+    }
+
+    .socialmedia {
+        width: 400px;
+    }
+
+    .downloadLinks {
+        width: 400px;
+    }
+
+    .video-container {
+        position:relative;
+        padding-bottom:56.25%;
+        padding-top:30px;
+        height:0;
+        overflow:hidden;
+    }
+    
+    .video-container iframe, .video-container object, .video-container embed {
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+    }
+}
