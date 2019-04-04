@@ -23,20 +23,58 @@ header {
 h1 {
     color: #2d2d2d;
     margin: auto;
-    font-size: 100px;
+    font-size: 95px;
     font-family: 'Cabin', sans-serif;
+    font-style: italic;
 }
 
 nav {
     display: flex; 
     flex-wrap: nowrap;
     justify-content: center;
-    margin-top: 125px;
+    margin-top: 0;
     width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0; 
+    top: 125px;  
+    background-color: #2d2d2d;
+    border-top: 5px solid white;
 }
 
 .links {
-    padding: 10px;
+    border-left: solid 2px white;
+    border-right: solid 2px white;
+    border-bottom: solid 2px white;
+}
+
+button,
+button:focus,
+button:active{
+	border:1px solid white;
+	background:none;
+	outline:none;
+	padding:0;
+}
+
+button span{
+	position: relative;
+}
+
+.navButtons {
+    width: 200px;
+    height: 50px;
+    background-color: #2d2d2d;
+    color: white;
+    font-size: 20px;
+    font-family: 'Old Standard TT', serif;
+    font-style: italic;
+}
+
+.navButtons:hover {
+    background-color: white;
+    color: #2d2d2d;
+
 }
 
 #heroContainer {
@@ -46,6 +84,7 @@ nav {
     font-family: 'Old Standard TT', serif;
     color: white;
     margin-bottom: 20px;
+    margin-top: 200px;
 }
 
 .socialmediaTitles {
@@ -56,7 +95,6 @@ nav {
 .socialmedia {
     display: inline-block;
     margin:auto;
-    margin-top: 100px;
 }
 
 .downloadLinks {
