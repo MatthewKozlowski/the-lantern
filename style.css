@@ -1,73 +1,66 @@
+body {
+   background-color: #2d2d2d; 
+}
+
 .logo {
-    height: 100px;
-    width: 100px;
+    height: 125px;
+    width: 125px;
 }
 
 header {
     display: flex;
-    background-color: #2d2d2d;
+    background-color: white;
     margin: auto;
-    height: 100px;
+    height: 125px;
     width: 100%;
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
-    border-bottom: solid 1px #2d2d2d;
+    border-bottom: solid 1px white;
 }
 
 h1 {
-    color: white;
+    color: #2d2d2d;
     margin: auto;
-    
+    font-size: 100px;
+    font-family: 'Cabin', sans-serif;
 }
 
-#nav-toggle {
-    color: white;
-    text-decoration: none;
-    float: right;
-    font-size: 30px;
-    margin-top: 0;
-    margin-right: 5px;
+nav {
+    display: flex; 
+    flex-wrap: nowrap;
+    justify-content: center;
+    color: #2d2d2d;
 }
 
-#shows {
+#heroContainer {
     display: flex;
-    margin: auto;
-    background-color: gray;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-family: 'Old Standard TT', serif;
+    color: white;
+    margin-bottom: 20px;
 }
 
-.upcoming-shows {
-    width: 50%;
+.socialmediaTitles {
+    text-align: center;
+    font-size: 40px;
 }
 
-.future-shows {
-    width:25%;
-}
-
-.past-shows {
-    width: 25%;
-}
-
-#tweets {
+.socialmedia {
     display: inline-block;
+    margin:auto;
     margin-top: 150px;
 }
 
-#about {
-    display: flex;
-    background-color: tan;
-    margin: auto;
+.downloadLinks {
+    width: 400px;
+    height: 150px;
 }
 
-#about-lantern {
-    width: 33%;
-}
-
-#transcripts {
-    width: 33%;
-}
-
-#pictures {
-    width: 33%;
+#aboutContainer {
+    text-align: center;
+    background-color: #2d2d2d;
+    color: white;
 }
