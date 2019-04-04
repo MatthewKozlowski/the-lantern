@@ -77,6 +77,17 @@ button span{
 
 }
 
+.video {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#videoContainer {
+    height: 540px;
+    width: 720px;
+}
+
 #heroContainer {
     display: flex;
     flex-wrap: nowrap;
@@ -118,31 +129,19 @@ button span{
         margin-top: 0;
     }
 
-    .video {
-        order: -1;
-    }
-
 }
 
 @media only screen and (max-width: 1000px){
     h1 {
         font-size:50px;
     }
-
-    .video {
-        order: -1;
-    }
-    
+ 
 }
 
 @media only screen and (max-width: 600px) {
 
     h1 {
         font-size: 35px;
-    }
-
-    .video {
-        order: -1;
     }
 
     #heroContainer {
