@@ -1,5 +1,9 @@
 body {
    background-color: #2d2d2d; 
+   /*background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/Qif3nl0/4k-vintage-film-frame-loop_v1lu_knv__F0001.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;*/
 }
 
 .logo {
@@ -25,7 +29,6 @@ h1 {
     margin: auto;
     font-size: 95px;
     font-family: 'Cabin', sans-serif;
-    font-style: italic;
 }
 
 nav {
@@ -74,7 +77,7 @@ button span{
 .navButtons:hover {
     background-color: white;
     color: #2d2d2d;
-
+    cursor: pointer;
 }
 
 .video {
