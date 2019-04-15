@@ -52,7 +52,7 @@ function openCalendar(){
   </div>`)
   })
 }
-
+/*
 twttr.widgets.createTimeline(
     {
       sourceType: "profile",
@@ -60,7 +60,7 @@ twttr.widgets.createTimeline(
     },
     document.getElementById("twitter-timeline")
   );
-
+*/
 openCalendar();
   
   

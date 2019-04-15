@@ -139,15 +139,21 @@ body {font-family: Verdana, sans-serif;}
 /* My Container */
 
 #calendarContainer {
+    margin: auto;
     margin-top: 200px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    border: solid white 5px;
+    border-radius: 7.5px;
 }
 
 /* Month header */
 .month {
-  padding: 70px 25px;
-  width: 64.5%;
+  padding: 50px 0px;
+  width: 100%;
   margin: auto;
-  background: #1abc9c;
+  background: maroon;
   text-align: center;
 }
 
@@ -159,9 +165,10 @@ body {font-family: Verdana, sans-serif;}
 
 .month ul li {
   color: white;
-  font-size: 20px;
+  font-size: 40px;
   text-transform: uppercase;
   letter-spacing: 3px;
+  font-family: 'Cabin', sans-serif;
 }
 
 /* Previous button inside month header */
@@ -178,9 +185,11 @@ body {font-family: Verdana, sans-serif;}
 
 /* Weekdays (Mon-Sun) */
 .weekdays {
-  width: 68.7%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
   margin: auto;
-  padding: 10px 0;
+  padding: 10px 0px;
   background-color:#ddd;
 }
 
@@ -193,8 +202,8 @@ body {font-family: Verdana, sans-serif;}
 
 /* Days (1-31) */
 .days {
-  width: 68.7%;
-  padding: 10px 0;
+  width: 100%;
+  padding: 20px 0;
   background: #eee;
   margin: auto;
 }
