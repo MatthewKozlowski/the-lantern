@@ -11,11 +11,6 @@ body {
     width: 125px;
 }
 
-.logo:hover {
-    cursor: pointer;
-    border: 3px solid black;
-}
-
 header {
     display: flex;
     background-color: white;
