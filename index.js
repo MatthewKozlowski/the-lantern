@@ -1,7 +1,7 @@
 'use strict';
 
-const apiKey = '584d20c1';
-const searchUrl = 'http://www.omdbapi.com/';
+const apiKey = 'NLuX9WG7xN6ccrlNQPYq88OeUPE5ubhv4sigYpUk';
+const searchUrl = 'https://api-gate2.movieglu.com/filmLiveSearch/';
 let maxResults = 10;
 
 function displayMovieResults(responseJson){
@@ -25,10 +25,10 @@ function formatQueryParams(params){
   return queryItems.join('&');
 }
 
-function getMovies(searchTerm, maxResults){
+function getMovies(query, maxResults){
 const params = {
   apikey: apiKey,
-  s: searchTerm,
+  q: query,
   maxResults
 };
 
@@ -43,10 +43,10 @@ fetch(url)
 function watchForm(){
   $('#search-form').submit(function(event){
     event.preventDefault();
-    let searchTerm = $('#js-search-term').val();
+    let query = $('#js-search-term').val();
     maxResults = $('#js-max-results').val();
-    console.log(searchTerm+" "+maxResults);
-    getMovies(searchTerm, maxResults);
+    console.log(query+" "+maxResults);
+    getMovies(query, maxResults);
   })
 }
 
