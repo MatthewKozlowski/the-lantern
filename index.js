@@ -53,9 +53,9 @@ function watchForm(){
 function openFilmSearch(){
   console.log("openFilmSearch ran.")
   $('.movieSearch').on('click', function(){
-    $('main').html(`<h1 class="searchTitle">Search for a movie</h1>
+    $('main').html(`<h1 class="searchTitle">Search for a movie near you!</h1>
       <form id="search-form">
-            <label for="search-term">Search by Name</label>
+            <label for="search-term">Search by name</label>
             <input type="text" name="search-term" id="js-search-term" value="Labyrinth">
 
             <label for="max-results">Maximum results to return</label>
@@ -128,6 +128,12 @@ function openCalendar(){
   </div>`)
   })
 }
+
+function returnToLandingPage(){
+  $('.logo').on('click', function(event){
+    location.reload();
+  })
+}
 /*
 twttr.widgets.createTimeline(
     {
@@ -138,5 +144,5 @@ twttr.widgets.createTimeline(
   );
 */
 openCalendar();
-  
+returnToLandingPage();
   
